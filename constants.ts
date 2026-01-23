@@ -12,7 +12,7 @@ export const PRODUCTS: Product[] = [
     tagline: 'Independencia energética total',
     category: ProductCategory.DELTA,
     description: 'El sistema de respaldo doméstico más potente. Capacidad escalable de 6kWh a 90kWh y salida masiva capaz de alimentar toda tu casa, incluidos aires acondicionados centrales (240V). Funcionamiento silencioso 0dB.',
-    imagePlaceholder: 'https://ecoflow.powerme.mx/wp-content/uploads/2025/09/DPU_03.webp',
+    image: 'https://ecoflow.powerme.mx/wp-content/uploads/2025/09/DPU_03.webp',
     specs: [
       { label: 'Capacidad', value: '6 kWh - 90 kWh' },
       { label: 'Potencia Salida', value: '6900 W (Exp. 21.6 kW)' },
@@ -35,7 +35,7 @@ export const PRODUCTS: Product[] = [
     tagline: 'Respaldo, movilidad y control',
     category: ProductCategory.DELTA,
     description: 'Potencia fiable para tu hogar y aventuras. Capacidad ampliable hasta 5 kWh con carga rápida y compatibilidad total con el ecosistema EcoFlow.',
-    imagePlaceholder: 'https://ecoflow.powerme.mx/wp-content/uploads/2025/09/D3_Main.webp',
+    image: 'https://ecoflow.powerme.mx/wp-content/uploads/2025/09/D3_Main.webp',
     specs: [
       { label: 'Capacidad', value: '1024 Wh (Ampliable 5kWh)' },
       { label: 'Salida AC', value: '1800 W (Pico 3600 W)' },
@@ -60,7 +60,7 @@ export const PRODUCTS: Product[] = [
     tagline: 'Energía ininterrumpida',
     category: ProductCategory.RIVER,
     description: 'Diseñada para la continuidad. Con un tiempo de conmutación UPS de 10ms, mantiene tus dispositivos críticos funcionando sin interrupciones.',
-    imagePlaceholder: 'https://ecoflow.powerme.mx/wp-content/uploads/2025/09/R3UPS_Main.webp',
+    image: 'https://ecoflow.powerme.mx/wp-content/uploads/2025/09/R3UPS_Main.webp',
     specs: [
       { label: 'Capacidad', value: '245 Wh' },
       { label: 'Salida AC', value: '300 W (Pico 600 W)' },
@@ -80,7 +80,7 @@ export const PRODUCTS: Product[] = [
     tagline: 'Potencia compacta',
     category: ProductCategory.RIVER,
     description: 'El equilibrio ideal. Ofrece mayor potencia de salida y una recarga AC rápida de 60 minutos en un formato fácil de transportar.',
-    imagePlaceholder: 'https://ecoflow.powerme.mx/wp-content/uploads/2025/09/R3P_Main.webp',
+    image: 'https://ecoflow.powerme.mx/wp-content/uploads/2025/09/R3P_Main.webp',
     specs: [
       { label: 'Capacidad', value: '286 Wh' },
       { label: 'Salida AC', value: '600 W (Pico 1200 W)' },
@@ -102,7 +102,7 @@ export const PRODUCTS: Product[] = [
     tagline: 'Mayor autonomía',
     category: ProductCategory.RIVER,
     description: 'Doble de capacidad para quienes necesitan más energía durante más tiempo, manteniendo la portabilidad característica de la serie RIVER.',
-    imagePlaceholder: 'https://ecoflow.powerme.mx/wp-content/uploads/2025/09/R3M_Main.webp',
+    image: 'https://ecoflow.powerme.mx/wp-content/uploads/2025/09/R3M_Main.webp',
     specs: [
       { label: 'Capacidad', value: '572 Wh' },
       { label: 'Salida AC', value: '600 W (Pico 1200 W)' },
@@ -124,7 +124,7 @@ export const PRODUCTS: Product[] = [
     tagline: 'Máximo rendimiento portátil',
     category: ProductCategory.RIVER,
     description: 'La versión más potente de la serie compacta. Gran capacidad de 858Wh para viajes largos y respaldo extendido.',
-    imagePlaceholder: 'https://ecoflow.powerme.mx/wp-content/uploads/2025/09/R3MP_Main.webp',
+    image: 'https://ecoflow.powerme.mx/wp-content/uploads/2025/09/R3MP_Main.webp',
     specs: [
       { label: 'Capacidad', value: '858 Wh' },
       { label: 'Salida AC', value: '600 W (Pico 1200 W)' },
@@ -148,7 +148,7 @@ export const PRODUCTS: Product[] = [
     tagline: 'Energía para compartir',
     category: ProductCategory.TRAIL,
     description: 'Hecho para durar en cualquier sendero. Con un diseño 60% más compacto y ultraligero (1.83kg), ofrece 192Wh de capacidad para alimentar tus aventuras. Cuenta con recarga rápida en 1 hora y sistema de protección BMS para máxima seguridad.',
-    imagePlaceholder: 'https://ecoflow.powerme.mx/wp-content/uploads/2025/12/DP3_Trail_200_Main.webp',
+    image: 'https://ecoflow.powerme.mx/wp-content/uploads/2025/12/DP3_Trail_200_Main.webp',
     specs: [
       { label: 'Capacidad', value: '192 Wh (60,000 mAh)' },
       { label: 'Potencia DC', value: '220 W' },
@@ -170,7 +170,7 @@ export const PRODUCTS: Product[] = [
     tagline: 'Comparte energía, comparte momentos',
     category: ProductCategory.TRAIL,
     description: 'Potencia todo tu equipo, siempre. Con una capacidad de 288Wh (90,000mAh) y 5 puertos de salida, mantén todos tus dispositivos cargados. Diseño portátil 60% más compacto y ultraligero (2.58kg) para cualquier aventura.',
-    imagePlaceholder: 'https://ecoflow.powerme.mx/wp-content/uploads/2025/12/DP3_Trail_300_Main.webp',
+    image: 'https://ecoflow.powerme.mx/wp-content/uploads/2025/12/DP3_Trail_300_Main.webp',
     specs: [
       { label: 'Capacidad', value: '288 Wh (90,000 mAh)' },
       { label: 'Potencia DC', value: '300 W' },
@@ -194,7 +194,7 @@ export const PRODUCTS: Product[] = [
     tagline: 'Tu energía, tu futuro',
     category: ProductCategory.SOLAR,
     description: 'Panel solar portátil de alta eficiencia con tecnología TOPcon tipo N. Impermeable (IP68) y diseñado para capturar la máxima energía solar.',
-    imagePlaceholder: 'https://ecoflow.powerme.mx/wp-content/uploads/2025/09/PS_160_Main.webp',
+    image: 'https://ecoflow.powerme.mx/wp-content/uploads/2025/09/PS_160_Main.webp',
     specs: [
       { label: 'Potencia', value: '160 W' },
       { label: 'Eficiencia', value: '25%' },
@@ -218,7 +218,7 @@ export const PRODUCTS: Product[] = [
     tagline: 'El centro de tu sistema de respaldo',
     category: ProductCategory.ACCESSORIES,
     description: 'El corazón de tu ecosistema energético. Conecta tu DELTA Pro Ultra a tu hogar para un respaldo automático en 20ms. Incluye la pantalla PowerInsight para monitorización visual y gestión inteligente de energía y circuitos.',
-    imagePlaceholder: 'https://ecoflow.powerme.mx/wp-content/uploads/2025/09/SMART_SHP2_Main.webp',
+    image: 'https://ecoflow.powerme.mx/wp-content/uploads/2025/09/SMART_SHP2_Main.webp',
     specs: [
       { label: 'Conmutación', value: '20 ms (Automática)' },
       { label: 'Control', value: 'App / PowerInsight' },
@@ -239,7 +239,7 @@ export const PRODUCTS: Product[] = [
     tagline: 'Carga solar wearable',
     category: ProductCategory.ACCESSORIES,
     description: 'Innovación que puedes llevar puesta. Un sombrero con paneles solares integrados de 360° que carga tus dispositivos mientras te protege del sol. Ideal para pesca, senderismo y vida al aire libre.',
-    imagePlaceholder: 'https://ecoflow.powerme.mx/wp-content/uploads/2025/09/PowerHat_Main.webp',
+    image: 'https://ecoflow.powerme.mx/wp-content/uploads/2025/09/PowerHat_Main.webp',
     specs: [
       { label: 'Paneles', value: '360° Sin puntos ciegos' },
       { label: 'Puertos', value: 'USB-A y USB-C' },
